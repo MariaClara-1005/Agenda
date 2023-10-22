@@ -1,0 +1,53 @@
+body{
+    padding: 20px;
+}
+
+section{
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(222, 244, 255);
+    width: 50%;
+    box-shadow: 0px 0px 16px 3px #162f74;
+    border-radius: 8px;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+.botao {
+    background-color: #162f74;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12px; 
+}
+.pesquisa {
+    width: 25%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+table.comBordaSimples {
+
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e7ebf6;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+table.comBordaSimples td {
+    border-bottom: 2px solid rgb(24, 45, 110);
+}
+ 
+table.comBordaSimples th {
+    border-bottom: 2px solid rgb(86, 137, 182);
+    background-color: rgb(179, 218, 244);
+}
+td, th {
+    border: 1px solid;
+    border-color: blue;
+    padding: 10px;
+    border-bottom: 00;
+}
