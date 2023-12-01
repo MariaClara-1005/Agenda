@@ -2,9 +2,7 @@ from django.shortcuts import render, redirect
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 from .models import *
-from django.contrib.auth import logout
 import mysql.connector
-from datetime import datetime
 import random
 
 # Create your views here.
